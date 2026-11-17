@@ -1,0 +1,15 @@
+export interface Book {
+  author: string;
+  title: string;
+  year: number;
+  description: string;
+  id: string;
+  isRead: boolean;
+}
+
+export interface BookData {
+  author: string;
+  title: string;
+  year: number;
+  description: string;
+}
