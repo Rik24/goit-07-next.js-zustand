@@ -2,7 +2,7 @@ import { User, UserData } from "@/types/users";
 import axios from "axios";
 
 const usersApi = axios.create({
-  baseURL: "https://6240d2109b450ae274385b44.mockapi.io/api",
+  baseURL: "http://localhost:3000/api",
 });
 
 export async function getUsers(isOnline?: boolean): Promise<User[]> {
